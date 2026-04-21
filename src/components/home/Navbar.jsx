@@ -105,7 +105,7 @@ const Navbar = () => {
             <Link
               to="/contact"
               onClick={() => setIsopen(false)}
-              className=" px-5 text-center  bg-[#fda829] text-white  lg:px-7 lg:py-2 lg:ml-16 rounded-full font-semibold shadow-md hover:bg-[#fda829] transition"
+              className=" px-5 text-center transition-all duration-300 ease-out hover:scale-105 hover:-traslate-y-1 hover:shadow-lg active:scale-95 bg-[#fda829] text-white  lg:px-7 lg:py-2 lg:ml-16 rounded-full font-semibold shadow-md hover:bg-[#fda829] transition"
             >
               Contact Me
             </Link>
