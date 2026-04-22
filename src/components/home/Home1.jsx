@@ -37,7 +37,7 @@ const Home1 = () => {
   }, [charIndex, index]);
 
   return (
-    <div className="flex flex-col items-center mt-[80px]">
+    <div className="flex flex-col items-center mt-[80px] lg:mt-[110px]">
       <h1 className="text-xl font-semibold">
         Website Developer in Afghanistan
       </h1>

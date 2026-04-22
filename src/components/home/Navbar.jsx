@@ -8,9 +8,9 @@ const Navbar = () => {
   return (
     <>
       {/* Navbar Top */}
-      <div className="bg-white/50 w-full lg:h-[80px] lg:justify-evenly h-[60px] z-10 shadow-md flex backdrop-blur-lg items-center justify-between px-4 fixed top-0">
+      <div className="bg-white/50 w-full lg:h-[90px] lg:justify-evenly h-[60px] z-10 shadow-md flex backdrop-blur-lg items-center justify-between px-4 fixed top-0">
         <div className="flex items-center gap-3">
-          <p className="text-[20px] font-semibold lg:text-[24px]">Noorulhaq Rahimi</p>
+          <p className="text-[20px] font-semibold lg:text-[27px] ">Noorulhaq Rahimi</p>
           <img
             src="/images/night-mode.png"
             alt="darkIcon"
@@ -24,13 +24,13 @@ const Navbar = () => {
         >
           {isopen ? "✕" : "☰"}
         </button>
-        <ul className="lg:flex hidden  gap-3 text-lg">
+        <ul className="lg:flex hidden gap-3 text-lg">
           {/* Home */}
           <li>
             <Link
               to="/"
               onClick={() => setIsopen(false)}
-              className={`block w-full px-4 lg:px-6 lg:py-2 lg:text-[16px] rounded-xl ${
+              className={`block w-full px-4 lg:px-6 lg:py-2 lg:text-[17px] rounded-xl ${
                 location.pathname === "/"
                   ? "bg-gray-200 font-medium"
                   : "hover:bg-gray-100"
@@ -45,7 +45,7 @@ const Navbar = () => {
             <Link
               to="/about"
               onClick={() => setIsopen(false)}
-              className={`block w-full lg:px-6 lg:py-2 lg:text-[16px] px-4  rounded-xl ${
+              className={`block w-full lg:px-6 lg:py-2 lg:text-[17px] px-4  rounded-xl ${
                 location.pathname === "/about"
                   ? "bg-gray-200 font-medium"
                   : "hover:bg-gray-100"
@@ -60,7 +60,7 @@ const Navbar = () => {
             <Link
               to="/services"
               onClick={() => setIsopen(false)}
-              className={`block w-full lg:px-6 lg:py-2 lg:text-[16px] px-4  rounded-xl ${
+              className={`block w-full lg:px-6 lg:py-2 lg:text-[17px] px-4  rounded-xl ${
                 location.pathname === "/services"
                   ? "bg-gray-200 font-medium"
                   : "hover:bg-gray-100"
@@ -75,7 +75,7 @@ const Navbar = () => {
             <Link
               to="/portfolio"
               onClick={() => setIsopen(false)}
-              className={`block w-full px-4 lg:px-6 lg:py-2 lg:text-[16px] rounded-xl ${
+              className={`block w-full px-4 lg:px-6 lg:py-2 lg:text-[17px] rounded-xl ${
                 location.pathname === "/portfolio"
                   ? "bg-gray-200 font-medium"
                   : "hover:bg-gray-100"
@@ -90,7 +90,7 @@ const Navbar = () => {
             <Link
               to="/products"
               onClick={() => setIsopen(false)}
-              className={`block w-full px-4 lg:px-6 lg:py-2 lg:text-[16px] rounded-xl ${
+              className={`block w-full px-4 lg:px-6 lg:py-2 lg:text-[17px] rounded-xl ${
                 location.pathname === "/products"
                   ? "bg-gray-200 font-medium"
                   : "hover:bg-gray-100"
