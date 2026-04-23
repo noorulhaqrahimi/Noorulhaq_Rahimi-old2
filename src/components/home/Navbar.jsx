@@ -8,13 +8,15 @@ const Navbar = () => {
   return (
     <>
       {/* Navbar Top */}
-      <div className="bg-white/50 w-full lg:h-[90px] lg:justify-evenly h-[60px] z-10 shadow-md flex backdrop-blur-lg items-center justify-between px-4 fixed top-0">
+      <div className="bg-white/50 w-full lg:h-[80px] lg:justify-evenly h-[60px] z-10 shadow-md flex backdrop-blur-lg items-center justify-between px-4 fixed top-0">
         <div className="flex items-center gap-3">
-          <p className="text-[20px] font-semibold lg:text-[27px] ">Noorulhaq Rahimi</p>
+          <p className="text-[20px] font-semibold lg:text-[27px] ">
+            Noorulhaq Rahimi
+          </p>
           <img
             src="/images/night-mode.png"
             alt="darkIcon"
-            className="w-[25px] lg:ml-4 lg:w-[30px]"
+            className="w-[25px] cursor-pointer lg:ml-4 lg:w-[30px]"
           />
         </div>
 
@@ -105,7 +107,9 @@ const Navbar = () => {
             <Link
               to="/contact"
               onClick={() => setIsopen(false)}
-              className=" px-5 text-center transition-all duration-300 ease-out hover:scale-105 hover:-traslate-y-1 hover:shadow-lg active:scale-95 bg-[#fda829] text-white  lg:px-7 lg:py-2 lg:ml-16 rounded-full font-semibold shadow-md hover:bg-[#fda829] transition"
+              className=" px-5 text-center transition-all duration-300 ease-out hover:scale-105 hover:-traslate-y-1
+              hover:shadow-lg active:scale-95 bg-[#fda829] text-white  lg:px-7 lg:py-2 lg:ml-20
+              rounded-full font-semibold shadow-md hover:bg-[#fda829] transition"
             >
               Contact Me
             </Link>

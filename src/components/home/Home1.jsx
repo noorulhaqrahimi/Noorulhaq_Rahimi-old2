@@ -57,7 +57,7 @@ const Home1 = () => {
         Website Developer For Afghan Businesses | Web Developer Kabul
       </div>
       <div className="mt-5">
-        <p className="text-justify max-w-[320px] text-[18px]">
+        <p className="text-justify p-6 text-[18px]">
           I'm a professional website designer in Afghanistan and web developer
           based in Kabul, with one years of experience creating websites and
           web applications for Afghan businesses worldwide. I offer website
