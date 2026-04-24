@@ -16,7 +16,7 @@ export default function ImageSlider() {
       setTimeout(() => {
         setIndex((prev) => (prev + 1) % images.length);
         setFade(true); // fade in
-      }, 2000);
+      }, 1000);
 
     }, 5000);
 
