@@ -7,7 +7,7 @@ const SkillCards = () => {
       <motion.div className="mt-[80px]"
       initial={{opacity: 0, y: 80}}
       whileInView={{opacity: 1, y: 0}}
-      transition={{duration: 0.8}}
+      transition={{duration: 1.5}}
       >
         <h2 className="text-[clamp(12px,6vw,35px)] md:text-4xl font-semibold mb-7 text-center">
           Languages and Tools
