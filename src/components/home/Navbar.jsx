@@ -8,14 +8,15 @@ const Navbar = () => {
   return (
     <>
       {/* Navbar Top */}
-      <div className="bg-white/50 w-full lg:h-[80px] lg:justify-evenly h-[clamp(55px,4vw,140px)] z-10 shadow-md flex backdrop-blur-lg items-center justify-between px-4 fixed top-0">
+      <div className="bg-white/50 w-full lg:h-[80px] lg:justify-evenly h-[clamp(55px,10vw,140px)]
+      z-10 shadow-md flex backdrop-blur-lg items-center justify-between px-4 fixed top-0">
         <div className="flex items-center gap-3">
           <p className="text-[clamp(20px,4vw,30px)] font-semibold lg:text-[27px] ">
             Noorulhaq Rahimi
           </p>
           <img
             src="/images/night-mode.png"
-            alt="darkIcon"
+            alt="darkIcon"    
             className="w-[25px] cursor-pointer lg:ml-4 lg:w-[30px]"
           />
         </div>
