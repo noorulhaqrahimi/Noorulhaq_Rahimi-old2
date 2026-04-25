@@ -5,7 +5,7 @@ const ServicesCards = function () {
     <>
       {/* 1 Card Copy */}
       <motion.div
-        className="w-[320px] flex justify-self-center mb-5"
+        className="w-[330px] flex justify-self-center mb-5"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         whileHover={{ scale: 1.1 }}
@@ -42,7 +42,7 @@ const ServicesCards = function () {
 
       {/* 2 Card Copy */}
       <motion.div
-        className="w-[320px] flex justify-self-center mb-5"
+        className="w-[330px] flex justify-self-center mb-5"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         whileHover={{ scale: 1.1 }}
@@ -80,7 +80,7 @@ const ServicesCards = function () {
 
       {/* 3 Card copy */}
       <motion.div
-        className="w-[320px] flex justify-self-center mb-5"
+        className="w-[330px] flex justify-self-center mb-5"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         whileHover={{ scale: 1.1 }}
@@ -118,7 +118,7 @@ const ServicesCards = function () {
 
       {/* 4 Card copy */}
        <motion.div
-        className="w-[320px] flex justify-self-center mb-5"
+        className="w-[330px] flex justify-self-center mb-5"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         whileHover={{ scale: 1.1 }}
