@@ -3,13 +3,14 @@ import { motion } from "framer-motion";
 const ServicesCards = function () {
   return (
     <>
+      {/* 1 Card Copy */}
       <motion.div
-        className="w-[310px] flex justify-self-center"
+        className="w-[310px] flex justify-self-center mb-5"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         whileHover={{ scale: 1.1 }}
         transition={{ duration: 0.9 }}
-        viewport={{once: true}}
+        viewport={{ once: true }}
       >
         <div className="w-f rounded-[9px] overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.08)] bg-white">
           {/* قسمت بالا */}
@@ -22,7 +23,7 @@ const ServicesCards = function () {
             </h2>
 
             <p className="text-[14px] text-[#6b7280] mt-[6px] leading-[20px]">
-              Expert website design services in Kabul, Afghanistan. I create
+              Expert website design services. I create
               custom, responsive websites that look...
             </p>
 
@@ -31,13 +32,127 @@ const ServicesCards = function () {
               className="mt-[12px] w-full h-[44px] bg-[#fda829] 
            hover:bg-[#fda829] text-white text-[14px] 
             font-medium rounded-[9px] transition"
-            whileTap={{scale: 0.8}}
+              whileTap={{ scale: 0.8 }}
             >
               Get Started
             </motion.button>
           </div>
         </div>
       </motion.div>
+
+      {/* 2 Card Copy */}
+      <motion.div
+        className="w-[310px] flex justify-self-center mb-5"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        whileHover={{ scale: 1.1 }}
+        transition={{ duration: 0.9 }}
+        viewport={{ once: true }}
+      >
+        <div className="w-f rounded-[9px] overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.08)] bg-white">
+          {/* قسمت بالا */}
+          <div className="w-full h-[140px] bg-[#fbd9bd]" />
+
+          {/* محتوا */}
+          <div className="px-[16px] pt-[14px] pb-[16px]">
+            <h2 className="text-[18px] font-semibold text-[#111] leading-[24px]">
+              Website Development
+            </h2>
+
+            <p className="text-[14px] text-[#6b7280] mt-[6px] leading-[20px]">
+             Fast, modern, and responsive websites for
+              your business...
+            </p>
+
+            {/* دکمه */}
+            <motion.button
+              className="mt-[12px] w-full h-[44px] bg-[#fda829] 
+           hover:bg-[#fda829] text-white text-[14px] 
+            font-medium rounded-[9px] transition"
+              whileTap={{ scale: 0.8 }}
+            >
+              Get Started
+            </motion.button>
+          </div>
+        </div>
+      </motion.div>
+
+
+      {/* 3 Card copy */}
+      <motion.div
+        className="w-[310px] flex justify-self-center mb-5"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        whileHover={{ scale: 1.1 }}
+        transition={{ duration: 0.9 }}
+        viewport={{ once: true }}
+      >
+        <div className="w-f rounded-[9px] overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.08)] bg-white">
+          {/* قسمت بالا */}
+          <div className="w-full h-[140px] bg-[#fbd9bd]" />
+
+          {/* محتوا */}
+          <div className="px-[16px] pt-[14px] pb-[16px]">
+            <h2 className="text-[18px] font-semibold text-[#111] leading-[24px]">
+              Logo Design
+            </h2>
+
+            <p className="text-[14px] text-[#6b7280] mt-[6px] leading-[20px]">
+              Unique, memorable logos that define your brand...
+            </p>
+
+            {/* دکمه */}
+            <motion.button
+              className="mt-[12px] w-full h-[44px] bg-[#fda829] 
+           hover:bg-[#fda829] text-white text-[14px] 
+            font-medium rounded-[9px] transition"
+              whileTap={{ scale: 0.8 }}
+            >
+              Get Started
+            </motion.button>
+          </div>
+        </div>
+      </motion.div>
+
+
+
+      {/* 4 Card copy */}
+       <motion.div
+        className="w-[310px] flex justify-self-center mb-5"
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        whileHover={{ scale: 1.1 }}
+        transition={{ duration: 0.9 }}
+        viewport={{ once: true }}
+      >
+        <div className="w-f rounded-[9px] overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.08)] bg-white">
+          {/* قسمت بالا */}
+          <div className="w-full h-[140px] bg-[#fbd9bd]" />
+
+          {/* محتوا */}
+          <div className="px-[16px] pt-[14px] pb-[16px]">
+            <h2 className="text-[18px] font-semibold text-[#111] leading-[24px]">
+              Social Ads Design
+            </h2>
+
+            <p className="text-[14px] text-[#6b7280] mt-[6px] leading-[20px]">
+              Scroll-stopping ads that boost revenue and turn clicks into profit...
+            </p>
+
+            {/* دکمه */}
+            <motion.button
+              className="mt-[12px] w-full h-[44px] bg-[#fda829] 
+           hover:bg-[#fda829] text-white text-[14px] 
+            font-medium rounded-[9px] transition"
+              whileTap={{ scale: 0.8 }}
+            >
+              Get Started
+            </motion.button>
+          </div>
+        </div>
+      </motion.div>
+
+
     </>
   );
 };
