@@ -1,5 +1,21 @@
 import { motion } from "framer-motion";
-ccdddr
+
+
+const Container = {
+    hidden: {},
+    show: {
+        transition: {
+            staggerChildren: 0.5
+        }
+    }
+}
+
+
+const item = {
+    hidden: {opacity: 0, y: 50},
+    show: {opacity: 1, y: 0, transition: {duration: 0.9}},
+}
+
 
 const SkillCards = () => {
   return (
@@ -8,31 +24,39 @@ const SkillCards = () => {
         <h2 className="text-[clamp(12px,6vw,35px)] md:text-4xl font-semibold mb-7 text-center">
           Languages and Tools
         </h2>
-        {/* 1 */}
+        <motion.div
+        variants={Container}
+        initial="hidden"
+        whileInView="show"
+        >
+            {/* 1 */}
         <div className="flex justify-center gap-6 mb-6">
           {/* 1 copy */}
-          <div
-            className="bg-white h-[clamp(90px,20vw,300px)] rounded-[11px] flex justify-center items-center flex-col border border-[rgba(0,0,0,0.17)]
+          <motion.div
+            className="bg-white h-[clamp(90px,20vw,300px)] rounded-[11px] flex justify-center items-center
+            flex-col border border-[rgba(0,0,0,0.17)]
                 shadow-sm shadow-[0_8px_18px_rgba(253,168,41,0.08)] w-[clamp(140px,40vw,550px)]"
-          >
+                variants={item}>
             <img src="/logos/html.svg" alt="html5" className="w-[clamp(35px,9vw,80px)] mb-1" />
             <p className="text-[16px]">HTML5</p>
-          </div>
+          </motion.div>
           {/* 2 copy */}
-          <div
-           className="bg-white h-[clamp(90px,20vw,300px)] rounded-[11px] flex justify-center items-center flex-col border border-[rgba(0,0,0,0.17)]
-                shadow-sm shadow-[0_8px_18px_rgba(253,168,41,0.08)] w-[clamp(140px,40vw,550px)]"  
-          >
+          <motion.div
+           className="bg-white h-[clamp(90px,20vw,300px)] rounded-[11px] flex justify-center
+           items-center flex-col border border-[rgba(0,0,0,0.17)]
+                shadow-sm shadow-[0_8px_18px_rgba(253,168,41,0.08)] w-[clamp(140px,40vw,550px)]"
+                variants={item}>
             <img src="/logos/css.svg" alt="css3" className="w-[clamp(35px,9vw,80px)] mb-1" />
             <p className="text-[16px]">CSS3</p>
-          </div>
+          </motion.div>
         </div>
         {/* 2 */}
         <div className="flex justify-center gap-5 mb-6">
           {/* 1 copy */}
-          <div
+          <motion.div
             className="bg-white h-[clamp(90px,20vw,300px)] rounded-[11px] flex justify-center items-center flex-col border border-[rgba(0,0,0,0.17)]
-                shadow-sm shadow-[0_8px_18px_rgba(253,168,41,0.08)] w-[clamp(140px,40vw,550px)]" 
+                shadow-sm shadow-[0_8px_18px_rgba(253,168,41,0.08)] w-[clamp(140px,40vw,550px)]"
+                variants={item}
           >
             <img
               src="/logos/js.svg"
@@ -40,22 +64,24 @@ const SkillCards = () => {
               className="w-[clamp(35px,9vw,80px)] mb-1"
             />
             <p className="text-[16px]">JavaScript</p>
-          </div>
+          </motion.div>
           {/* 2 copy */}
-          <div
+          <motion.div
            className="bg-white h-[clamp(90px,20vw,300px)] rounded-[11px] flex justify-center items-center flex-col border border-[rgba(0,0,0,0.17)]
                 shadow-sm shadow-[0_8px_18px_rgba(253,168,41,0.08)] w-[clamp(140px,40vw,550px)]" 
+                variants={item}
           >
             <img src="/logos/react.svg" alt="react" className="w-[clamp(35px,9vw,80px)] mb-1" />
             <p className="text-[16px]">React</p>
-          </div>
+          </motion.div>
         </div>
         {/* 3 */}
         <div className="flex justify-center gap-5 mb-6">
           {/* 1 copy */}
-          <div
+          <motion.div
            className="bg-white h-[clamp(90px,20vw,300px)] rounded-[11px] flex justify-center items-center flex-col border border-[rgba(0,0,0,0.17)]
                 shadow-sm shadow-[0_8px_18px_rgba(253,168,41,0.08)] w-[clamp(140px,40vw,550px)]" 
+                variants={item}
           >
             <img
               src="/logos/tailwind.svg"
@@ -63,11 +89,12 @@ const SkillCards = () => {
               className="w-[clamp(35px,9vw,80px)] mb-1"
             />
             <p className="text-[16px]">Tailwind</p>
-          </div>
+          </motion.div>
           {/* 2 copy */}
-          <div
+          <motion.div
           className="bg-white h-[clamp(90px,20vw,300px)] rounded-[11px] flex justify-center items-center flex-col border border-[rgba(0,0,0,0.17)]
                 shadow-sm shadow-[0_8px_18px_rgba(253,168,41,0.08)] w-[clamp(140px,40vw,550px)]" 
+                variants={item}
           >
             <img
               src="/logos/ts.svg"
@@ -75,22 +102,24 @@ const SkillCards = () => {
               className="w-[clamp(35px,9vw,80px)] mb-1"
             />
             <p className="text-[16px]">TypeScript</p>
-          </div>
+          </motion.div>
         </div>
         {/* 4 */}
         <div className="flex justify-center gap-5 mb-6">
           {/* 1 copy */}
-          <div
+          <motion.div
            className="bg-white h-[clamp(90px,20vw,300px)] rounded-[11px] flex justify-center items-center flex-col border border-[rgba(0,0,0,0.17)]
                 shadow-sm shadow-[0_8px_18px_rgba(253,168,41,0.08)] w-[clamp(140px,40vw,550px)]" 
+                variants={item}
           >
             <img src="/logos/figma.svg" alt="figma" className="w-[clamp(35px,9vw,80px)] mb-1" />
             <p className="text-[16px]">Figma</p>
-          </div>
+          </motion.div>
           {/* 2 copy */}
-          <div
+          <motion.div
            className="bg-white h-[clamp(90px,20vw,300px)] rounded-[11px] flex justify-center items-center flex-col border border-[rgba(0,0,0,0.17)]
                 shadow-sm shadow-[0_8px_18px_rgba(253,168,41,0.08)] w-[clamp(140px,40vw,550px)]" 
+                variants={item}
           >
             <img
               src="/logos/photoshop.svg"
@@ -98,14 +127,15 @@ const SkillCards = () => {
               className="w-[clamp(35px,9vw,80px)] mb-1"
             />
             <p className="text-[16px]">Photoshop</p>
-          </div>
+          </motion.div>
         </div>
         {/* 5 */}
         <div className="flex justify-center gap-5 mb-6">
           {/* 1 copy */}
-          <div
+          <motion.div
            className="bg-white h-[clamp(90px,20vw,300px)] rounded-[11px] flex justify-center items-center flex-col border border-[rgba(0,0,0,0.17)]
                 shadow-sm shadow-[0_8px_18px_rgba(253,168,41,0.08)] w-[clamp(140px,40vw,550px)]" 
+                variants={item}
           >
             <img
               src="/logos/illustrator.svg"
@@ -113,11 +143,12 @@ const SkillCards = () => {
               className="w-[clamp(35px,9vw,80px)] mb-1"
             />
             <p className="text-[16px]">Illustrator</p>
-          </div>
+          </motion.div>
           {/* 2 copy */}
-          <div
+          <motion.div
            className="bg-white h-[clamp(90px,20vw,300px)] rounded-[11px] flex justify-center items-center flex-col border border-[rgba(0,0,0,0.17)]
                 shadow-sm shadow-[0_8px_18px_rgba(253,168,41,0.08)] w-[clamp(140px,40vw,550px)]" 
+                variants={item}
           >
             <img
               src="/logos/indesign.svg"
@@ -125,14 +156,15 @@ const SkillCards = () => {
               className="w-[clamp(35px,9vw,80px)] mb-1"
             />
             <p className="text-[16px]">InDesign</p>
-          </div>
+          </motion.div>
         </div>
         {/* 6 */}
         <div className="flex justify-center gap-5 mb-6">
           {/* 1 copy */}
-          <div
+          <motion.div
            className="bg-white h-[clamp(90px,20vw,300px)] rounded-[11px] flex justify-center items-center flex-col border border-[rgba(0,0,0,0.17)]
                 shadow-sm shadow-[0_8px_18px_rgba(253,168,41,0.08)] w-[clamp(140px,40vw,550px)]" 
+                variants={item}
           >
             <img
               src="/logos/lightroom.svg"
@@ -140,11 +172,12 @@ const SkillCards = () => {
               className="w-[clamp(35px,9vw,80px)] mb-1"
             />
             <p className="text-[16px]">Lightroom</p>
-          </div>
+          </motion.div>
           {/* 2 copy */}
-          <div
+          <motion.div
             className="bg-white h-[clamp(90px,20vw,300px)] rounded-[11px] flex justify-center items-center flex-col border border-[rgba(0,0,0,0.17)]
                 shadow-sm shadow-[0_8px_18px_rgba(253,168,41,0.08)] w-[clamp(140px,40vw,550px)]" 
+                variants={item}
           >
             <img
               src="/logos/premiere.svg"
@@ -152,14 +185,15 @@ const SkillCards = () => {
               className="w-[clamp(35px,9vw,80px)] mb-1"
             />
             <p className="text-[16px]">Premiere</p>
-          </div>
+          </motion.div>
         </div>
         {/* 7 */}
         <div className="flex justify-center gap-5 mb-6">
           {/* 1 copy */}
-          <div
+          <motion.div
            className="bg-white h-[clamp(90px,20vw,300px)] rounded-[11px] flex justify-center items-center flex-col border border-[rgba(0,0,0,0.17)]
-                shadow-sm shadow-[0_8px_18px_rgba(253,168,41,0.08)] w-[clamp(140px,40vw,550px)]" 
+                shadow-sm shadow-[0_8px_18px_rgba(253,168,41,0.08)] w-[clamp(140px,40vw,550px)]"
+                variants={item} 
           >
             <img
               src="/logos/audition.svg"
@@ -167,16 +201,18 @@ const SkillCards = () => {
               className="w-[clamp(35px,9vw,80px)] mb-1"
             />
             <p className="text-[16px]">Audition</p>
-          </div>
+          </motion.div>
           {/* 2 copy */}
-          <div
+          <motion.div
             className="bg-white h-[clamp(90px,20vw,300px)] rounded-[11px] flex justify-center items-center flex-col border border-[rgba(0,0,0,0.17)]
                 shadow-sm shadow-[0_8px_18px_rgba(253,168,41,0.08)] w-[clamp(140px,40vw,550px)]" 
+                variants={item}
           >
             <img src="/logos/git.svg" alt="git" className="w-[clamp(35px,9vw,80px)] mb-1" />
             <p className="text-[16px]">Git</p>
-          </div>
+          </motion.div>
         </div>
+        </motion.div>
         {/* Cards End */}
       </div>
     </>
