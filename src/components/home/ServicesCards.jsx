@@ -14,7 +14,7 @@ const ServicesCards = function () {
       >
         <div className="w-f rounded-[9px] overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.08)] bg-white">
           {/* قسمت بالا */}
-          <div className="w-full h-[140px] bg-[#fbd9bd]" />
+          <div className="w-full h-[120px] bg-[#fbd9bd]" />
 
           {/* محتوا */}
           <div className="px-[16px] pt-[14px] pb-[16px]">
@@ -51,7 +51,7 @@ const ServicesCards = function () {
       >
         <div className="w-f rounded-[9px] overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.08)] bg-white">
           {/* قسمت بالا */}
-          <div className="w-full h-[140px] bg-[#fbd9bd]" />
+          <div className="w-full h-[120px] bg-[#fbd9bd]" />
 
           {/* محتوا */}
           <div className="px-[16px] pt-[14px] pb-[16px]">
@@ -89,7 +89,7 @@ const ServicesCards = function () {
       >
         <div className="w-f rounded-[9px] overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.08)] bg-white">
           {/* قسمت بالا */}
-          <div className="w-full h-[140px] bg-[#fbd9bd]" />
+          <div className="w-full h-[120px] bg-[#fbd9bd]" />
 
           {/* محتوا */}
           <div className="px-[16px] pt-[14px] pb-[16px]">
@@ -127,7 +127,7 @@ const ServicesCards = function () {
       >
         <div className="w-f rounded-[9px] overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.08)] bg-white">
           {/* قسمت بالا */}
-          <div className="w-full h-[140px] bg-[#fbd9bd]" />
+          <div className="w-full h-[120px] bg-[#fbd9bd]" />
 
           {/* محتوا */}
           <div className="px-[16px] pt-[14px] pb-[16px]">
