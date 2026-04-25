@@ -28,6 +28,7 @@ const SkillCards = () => {
         variants={Container}
         initial="hidden"
         whileInView="show"
+        viewport={{once: true}}
         >
             {/* 1 */}
         <div className="flex justify-center gap-6 mb-6">

@@ -14,6 +14,7 @@ const CardsPCY = () => {
         whileInView={{opacity: 1, y: 0}}
         transition={{duration: 0.9,delay: 0.2}}
         whileHover={{ scale: 0.90 }}
+        viewport={{once: true}}
         >
           <p className="text-[clamp(24px,4vw,24px)] font-bold text-foreground">
             7+
@@ -33,6 +34,7 @@ const CardsPCY = () => {
         whileInView={{opacity: 1, y: 0}}
         transition={{duration: 0.9, delay: 0.6}}
         whileHover={{ scale: 0.90 }}
+        viewport={{once: true}}
         >
           <p className="text-[clamp(24px,4vw,24px)] font-bold text-foreground">
             5+
@@ -52,6 +54,7 @@ const CardsPCY = () => {
         whileInView={{opacity: 1, y: 0 }}
         transition={{duration: 0.9, delay: 0.9}}
         whileHover={{scale: 0.90}}
+        viewport={{once: true}}
         >
           <p className="text-[clamp(24px,4vw,24px)] font-bold text-foreground">
             1+

@@ -16,6 +16,7 @@ const Button = function () {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9 }}
           whileHover={{ scale: 0.90 }}
+          viewport={{once: true}}
           >
           View My Work
         </MotionLink>
@@ -28,6 +29,7 @@ const Button = function () {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.5 }}
           whileHover={{ scale: 0.90 }}
+          viewport={{once: true}}
         >
           Contact Me
         </MotionLink>
