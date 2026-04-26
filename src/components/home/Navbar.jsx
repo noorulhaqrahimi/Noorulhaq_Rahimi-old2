@@ -9,15 +9,15 @@ const Navbar = () => {
     <>
       {/* Navbar Top */}
       <div className="bg-white/50 w-full lg:h-[80px] lg:justify-evenly h-[clamp(55px,10vw,140px)]
-      z-10 shadow-md flex backdrop-blur-lg items-center justify-between px-4 fixed top-0">
+      z-10 shadow-md flex backdrop-blur-lg items-center  justify-between px-4 fixed top-0">
         <div className="flex items-center gap-3">
-          <p className="text-[clamp(20px,4vw,30px)] font-semibold lg:text-[27px] ">
+          <p className="text-[clamp(20px,4vw,30px)] xl:text-[24px] font-semibold lg:text-[20px] ">
             Noorulhaq Rahimi
           </p>
           <img
             src="/images/night-mode.png"
             alt="darkIcon"    
-            className="w-[25px] cursor-pointer lg:ml-4 lg:w-[30px]"
+            className="w-[25px] cursor-pointer lg:ml-2 lg:w-[24px]"
           />
         </div>
 
@@ -27,13 +27,13 @@ const Navbar = () => {
         >
           {isopen ? "✕" : "☰"}
         </button>
-        <ul className="lg:flex hidden gap-3 text-lg">
+        <ul className="lg:flex lg:items-center hidden gap-5 lg:ml-8 text-lg">
           {/* Home */}
           <li>
             <Link
               to="/"
               onClick={() => setIsopen(false)}
-              className={`block w-full px-4 lg:px-6 lg:py-2 lg:text-[17px] rounded-xl ${
+              className={`block w-full px-2 lg:px-3 lg:py-1 xl:py-2 xl:px-4 xl:text-[19px] lg:text-[17px] rounded-xl ${
                 location.pathname === "/"
                   ? "bg-gray-200 font-medium"
                   : "hover:bg-gray-100"
@@ -48,7 +48,7 @@ const Navbar = () => {
             <Link
               to="/about"
               onClick={() => setIsopen(false)}
-              className={`block w-full lg:px-6 lg:py-2 lg:text-[17px] px-4  rounded-xl ${
+              className={`block w-full lg:px-3 lg:py-1 lg:text-[17px] xl:py-2 xl:px-4 xl:text-[19px] px-4  rounded-xl ${
                 location.pathname === "/about"
                   ? "bg-gray-200 font-medium"
                   : "hover:bg-gray-100"
@@ -63,7 +63,7 @@ const Navbar = () => {
             <Link
               to="/services"
               onClick={() => setIsopen(false)}
-              className={`block w-full lg:px-6 lg:py-2 lg:text-[17px] px-4  rounded-xl ${
+              className={`block w-full lg:px-3 lg:py-1 lg:text-[17px] xl:py-2 xl:px-4 xl:text-[19px] px-4  rounded-xl ${
                 location.pathname === "/services"
                   ? "bg-gray-200 font-medium"
                   : "hover:bg-gray-100"
@@ -78,7 +78,7 @@ const Navbar = () => {
             <Link
               to="/portfolio"
               onClick={() => setIsopen(false)}
-              className={`block w-full px-4 lg:px-6 lg:py-2 lg:text-[17px] rounded-xl ${
+              className={`block w-full px-4 lg:px-3 lg:py-1 lg:text-[17px] xl:py-2 xl:px-4 xl:text-[19px] rounded-xl ${
                 location.pathname === "/portfolio"
                   ? "bg-gray-200 font-medium"
                   : "hover:bg-gray-100"
@@ -93,7 +93,7 @@ const Navbar = () => {
             <Link
               to="/products"
               onClick={() => setIsopen(false)}
-              className={`block w-full px-4 lg:px-6 lg:py-2 lg:text-[17px] rounded-xl ${
+              className={`block w-full px-4 lg:px-3 lg:py-1 lg:text-[17px] xl:py-2 xl:px-4 xl:text-[19px] rounded-xl ${
                 location.pathname === "/products"
                   ? "bg-gray-200 font-medium"
                   : "hover:bg-gray-100"

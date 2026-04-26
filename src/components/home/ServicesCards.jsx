@@ -3,9 +3,11 @@ import { motion } from "framer-motion";
 const ServicesCards = function () {
   return (
     <>
-      {/* 1 Card Copy */}
+    <div className="flex mx-1 justify-center items-center flex-col">
+
+       {/* 1 Card Copy */}
       <motion.div
-        className="w-[330px] flex justify-self-center mb-5"
+        className="w-[clamp(320px,93vw,620px)] mb-7"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         whileHover={{ scale: 1.1 }}
@@ -42,7 +44,7 @@ const ServicesCards = function () {
 
       {/* 2 Card Copy */}
       <motion.div
-        className="w-[330px] flex justify-self-center mb-5"
+        className="w-[clamp(320px,93vw,620px)] mb-7"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         whileHover={{ scale: 1.1 }}
@@ -80,7 +82,7 @@ const ServicesCards = function () {
 
       {/* 3 Card copy */}
       <motion.div
-        className="w-[330px] flex justify-self-center mb-5"
+        className="w-[clamp(320px,93vw,620px)] mb-7"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         whileHover={{ scale: 1.1 }}
@@ -93,7 +95,7 @@ const ServicesCards = function () {
 
           {/* محتوا */}
           <div className="px-[16px] pt-[14px] pb-[16px]">
-            <h2 className="text-[18px] font-semibold text-[#111] leading-[24px]">
+            <h2 className="text-[18px] font-semibold leading-[24px]">
               Logo Design
             </h2>
 
@@ -118,7 +120,7 @@ const ServicesCards = function () {
 
       {/* 4 Card copy */}
        <motion.div
-        className="w-[330px] flex justify-self-center mb-5"
+        className="w-[clamp(320px,93vw,620px)] mb-7"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         whileHover={{ scale: 1.1 }}
@@ -151,8 +153,9 @@ const ServicesCards = function () {
           </div>
         </div>
       </motion.div>
+      {/* End */}
 
-
+    </div>
     </>
   );
 };

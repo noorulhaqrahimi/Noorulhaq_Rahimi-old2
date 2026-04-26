@@ -6,6 +6,7 @@ import InfoDev from "./InfoDev";
 import Navebar from "./Navbar";
 import ServicesCards from "./ServicesCards";
 import SkillCards from "./SkillCards";
+import WhatssapContact from "./whatssapContact";
 
 
 
@@ -20,6 +21,7 @@ const Home = ()=> {
         <SkillCards />
         <InfoDev/>
         <ServicesCards />
+        <WhatssapContact />
         </>
     )
 }

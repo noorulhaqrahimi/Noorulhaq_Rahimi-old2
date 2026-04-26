@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 
+
 const InfoDev = () => {
   return (
     <>
@@ -10,10 +11,10 @@ const InfoDev = () => {
         transition={{ duration: 0.9 }}
         viewport={{ once: true }}
       >
-        <h2 className="text-[27px] font-[600] flex justify-center text-center mx-2 mb-2 items-center">
+        <h2 className="text-[clamp(27px,5vw,40px)] font-[600] flex justify-center text-center mx-2 mb-2 items-center">
           Website Developer for Afghan Businesses | Web Developer Kabul
         </h2>
-        <p className="flex justify-center items-center text-center">
+        <p className="flex justify-center text-[clamp(16px,5vw,25px)] items-center text-center">
           As a professional website designer in Afghanistan and web developer
           Afghanistan, I provide complete web solutions for Afghan businesses in
           Kabul and across Afghanistan. Web Development, Logo Design, Social
