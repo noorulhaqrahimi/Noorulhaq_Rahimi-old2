@@ -8,6 +8,7 @@ const InfoDev = () => {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.9 }}
+        viewport={{ once: true }}
       >
         <h2 className="text-[27px] font-[600] flex justify-center text-center mx-2 mb-2 items-center">
           Website Developer for Afghan Businesses | Web Developer Kabul
