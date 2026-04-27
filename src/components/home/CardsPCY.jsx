@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const CardsPCY = () => {
   return (
     <>
-      <div className="flex justify-center items-center justify-self-center flex-wrap max-w-[630px] mx-4 gap-[clamp(12px,4vw,24px)] mt-[clamp(20px,5vw,40px)]">
+      <div className="flex justify-center items-center justify-self-center flex-wrap sm:gap-[clamp(12px,3vw,24px)] sm:ml-6 sm:mr-6 mx-4 gap-[clamp(12px,4vw,24px)] mt-[clamp(20px,5vw,40px)]">
         {/* کارت ۱ */}
         <motion.div
           className="rounded-xl border border-border/50 bg-card/50 

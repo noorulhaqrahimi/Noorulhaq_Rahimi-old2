@@ -8,8 +8,8 @@ const Navbar = () => {
   return (
     <>
       {/* Navbar Top */}
-      <div className="bg-white/50 w-full lg:h-[80px] lg:justify-evenly h-[clamp(55px,10vw,140px)]
-      z-10 shadow-md flex backdrop-blur-lg items-center  justify-between px-4 fixed top-0">
+      <div className="bg-white/50 w-full lg:h-[80px] sm:h-20 lg:justify-evenly h-[clamp(55px,10vw,140px)]
+      z-10 shadow-md flex backdrop-blur-lg items-center justify-between px-4 fixed top-0">
         <div className="flex items-center gap-3">
           <p className="text-[clamp(20px,4vw,30px)] xl:text-[24px] font-semibold lg:text-[20px] ">
             Noorulhaq Rahimi
@@ -22,7 +22,7 @@ const Navbar = () => {
         </div>
 
         <button
-          className="text-2xl mx-2 lg:hidden"
+          className="text-2xl sm:text-3xl mx-2 lg:hidden"
           onClick={() => setIsopen(!isopen)}
         >
           {isopen ? "✕" : "☰"}

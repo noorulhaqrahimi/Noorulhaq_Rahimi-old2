@@ -11,7 +11,7 @@ const WhatssapContact = () => {
       className="fixed bottom-8 right-8 rounded-full shadow-xl"
       
       animate={{
-        scale: [1, 1.1, 1],   // 👈 بزرگ و کوچک
+        scale: [1, 1.5, 1],   // 👈 بزرگ و کوچک
       }}
       transition={{
         duration: 1.5,        // سرعت
@@ -22,7 +22,7 @@ const WhatssapContact = () => {
       <img
         src="/logos/whatssap.png"
         alt="whatsapp"
-        className="w-[55px]"
+        className="w-[44px]"
       />
     </motion.a>
 

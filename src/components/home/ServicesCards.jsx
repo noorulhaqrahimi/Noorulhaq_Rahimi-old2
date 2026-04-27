@@ -3,18 +3,17 @@ import { motion } from "framer-motion";
 const ServicesCards = function () {
   return (
     <>
-    <div className="flex mx-1 justify-center items-center flex-col">
+    <div className="flex mx-1 sm:mr-6 sm:ml-6 justify-center items-center flex-col">
 
        {/* 1 Card Copy */}
       <motion.div
-        className="w-[clamp(320px,93vw,620px)] mb-7"
+        className="w-[clamp(320px,93vw,620px)] mb-7 sm:w-[clamp(400px,92vw,800px)]"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
-        whileHover={{ scale: 1.1 }}
         transition={{ duration: 0.9 }}
         viewport={{ once: true }}
       >
-        <div className="w-f rounded-[9px] overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.08)] bg-white">
+        <div className="w-full rounded-[9px] overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.08)] bg-white">
           {/* قسمت بالا */}
           <div className="w-full h-[120px] bg-[#fbd9bd]" />
 
@@ -44,14 +43,13 @@ const ServicesCards = function () {
 
       {/* 2 Card Copy */}
       <motion.div
-        className="w-[clamp(320px,93vw,620px)] mb-7"
+        className="w-[clamp(320px,93vw,620px)] mb-7 sm:w-[clamp(400px,92vw,800px)]"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
-        whileHover={{ scale: 1.1 }}
         transition={{ duration: 0.9 }}
         viewport={{ once: true }}
       >
-        <div className="w-f rounded-[9px] overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.08)] bg-white">
+        <div className="w-full sm:w-[clamp(400px,92vw,800px)] rounded-[9px] overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.08)] bg-white">
           {/* قسمت بالا */}
           <div className="w-full h-[120px] bg-[#fbd9bd]" />
 
@@ -82,10 +80,9 @@ const ServicesCards = function () {
 
       {/* 3 Card copy */}
       <motion.div
-        className="w-[clamp(320px,93vw,620px)] mb-7"
+        className="w-[clamp(320px,93vw,620px)] mb-7 sm:w-[clamp(400px,92vw,800px)]"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
-        whileHover={{ scale: 1.1 }}
         transition={{ duration: 0.9 }}
         viewport={{ once: true }}
       >
@@ -120,10 +117,9 @@ const ServicesCards = function () {
 
       {/* 4 Card copy */}
        <motion.div
-        className="w-[clamp(320px,93vw,620px)] mb-7"
+        className="w-[clamp(320px,93vw,620px)] mb-7 sm:w-[clamp(400px,92vw,800px)]"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
-        whileHover={{ scale: 1.1 }}
         transition={{ duration: 0.9 }}
         viewport={{ once: true }}
       >

@@ -20,7 +20,7 @@ const item = {
 const SkillCards = () => {
   return (
     <>                                                                                                                                                                                                                     
-      <div className="mt-[80px]">
+      <div className="mt-[80px] sm:hidden">
         <h2 className="text-[clamp(12px,6vw,35px)] md:text-4xl font-semibold mb-7 text-center">
           Languages and Tools
         </h2>
