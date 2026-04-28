@@ -2,16 +2,16 @@ import { motion } from "framer-motion";
 
 const ServiceCardLG = () => {
   return (
-    <div className="hidden lg:flex lg:justify-center lg:gap-6 lg:px-6">
+    <motion.div className="hidden lg:flex lg:justify-center lg:gap-6 lg:px-6"
+    initial={{opacity: 0, y: 50}}
+    whileInView={{opacity: 1, y: 0}}
+    transition={{duration: 0.9}}
+    viewport={{once: true}}
+    >
 
       {/* Card 1 */}
       <motion.div
-        className="lg:w-[400px]"
-        initial={{ opacity: 0, y: 50 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
-        viewport={{ once: true }}
-      >
+        className="lg:w-[400px] hover:border hover:border-[#fda829] hover:rounded-[10px]">
         <div className="w-full rounded-[9px] overflow-hidden shadow bg-white">
           <div className="w-full h-[120px] bg-[#fbd9bd]" />
           <div className="px-4 py-4">
@@ -30,7 +30,7 @@ const ServiceCardLG = () => {
       </motion.div>
 
       {/* Card 2 */}
-      <motion.div className="lg:w-[400px]">
+      <motion.div className="lg:w-[400px] hover:border hover:border-[#fda829] hover:rounded-[10px]">
         <div className="w-full rounded-[9px] overflow-hidden shadow bg-white">
           <div className="w-full h-[120px] bg-[#fbd9bd]" />
           <div className="px-4 py-4">
@@ -38,7 +38,8 @@ const ServiceCardLG = () => {
             <p className="text-[14px] text-gray-500 mt-2">
               Fast, modern websites...
             </p>
-            <motion.button className="mt-4 w-full h-[44px] bg-[#fda829] text-white rounded-[9px]">
+            <motion.button className="mt-4 w-full h-[44px] bg-[#fda829] text-white rounded-[9px]"
+            whileTap={{ scale: 0.9 }}>
               Get Started
             </motion.button>
           </div>
@@ -46,7 +47,7 @@ const ServiceCardLG = () => {
       </motion.div>
 
       {/* Card 3 */}
-      <motion.div className="lg:w-[400px]">
+      <motion.div className="lg:w-[400px] hover:border hover:border-[#fda829] hover:rounded-[10px]">
         <div className="w-full rounded-[9px] overflow-hidden shadow bg-white">
           <div className="w-full h-[120px] bg-[#fbd9bd]" />
           <div className="px-4 py-4">
@@ -54,7 +55,8 @@ const ServiceCardLG = () => {
             <p className="text-[14px] text-gray-500 mt-2">
               Unique logos for your brand...
             </p>
-            <motion.button className="mt-4 w-full h-[44px] bg-[#fda829] text-white rounded-[9px]">
+            <motion.button className="mt-4 w-full h-[44px] bg-[#fda829] text-white rounded-[9px]"
+            whileTap={{ scale: 0.9 }}>
               Get Started
             </motion.button>
           </div>
@@ -62,7 +64,7 @@ const ServiceCardLG = () => {
       </motion.div>
 
       {/* Card 4 */}
-      <motion.div className="lg:w-[400px]">
+      <motion.div className="lg:w-[400px] hover:border hover:border-[#fda829] hover:rounded-[10px]">
         <div className="w-full rounded-[9px] overflow-hidden shadow bg-white">
           <div className="w-full h-[120px] bg-[#fbd9bd]" />
           <div className="px-4 py-4">
@@ -70,14 +72,15 @@ const ServiceCardLG = () => {
             <p className="text-[14px] text-gray-500 mt-2">
               High-converting ads...
             </p>
-            <motion.button className="mt-4 w-full h-[44px] bg-[#fda829] text-white rounded-[9px]">
+            <motion.button className="mt-4 w-full h-[44px] bg-[#fda829] text-white rounded-[9px]"
+            whileTap={{ scale: 0.9 }}>
               Get Started
             </motion.button>
           </div>
         </div>
       </motion.div>
 
-    </div>
+    </motion.div>
   );
 };
 

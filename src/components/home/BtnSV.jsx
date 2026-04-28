@@ -10,6 +10,7 @@ const BtnSV = ()=> {
         whileInView={{opacity: 1, y: 0}}
         transition={{duration: 0.9}}
         viewport={{once: true}}
+        whileHover={{scale: 1.1}}
         >
          <Link
               to="/services"

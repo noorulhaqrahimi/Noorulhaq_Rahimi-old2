@@ -1,5 +1,6 @@
 import ContactF from "./ContactF";
 import EndF from "./EndF";
+import FullFLG from "./FullFLG";
 import PersonalInfoF from "./PersonalInfoF";
 import ProductsF from "./ProductsF";
 import QuickLink from "./QuickLink";
@@ -14,6 +15,7 @@ const Footer = function () {
       <QuickLink />
       <ProductsF />
       <ContactF/>
+      <FullFLG/>
       <EndF />
     </>
   );

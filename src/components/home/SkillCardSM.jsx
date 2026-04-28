@@ -21,6 +21,7 @@ const SkillCardSM = () => {
       variants={Container}
       initial= "hidden"
       whileInView= "show"
+      viewport={{once: true}}
       >
         <motion.h2 variants={item} className="text-[clamp(12px,6vw,35px)] lg:mb-9 md:text-4xl font-semibold mb-7 text-center"
         >

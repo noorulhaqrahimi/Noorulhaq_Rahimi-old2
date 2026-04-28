@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const QuickLink = () => {
   return (
     <>
-      <div className="mr-6 ml-6 mt-9 flex flex-col gap-2">
+      <div className="mr-6 ml-6 mt-9 flex flex-col gap-2 lg:hidden">
         <h2 className="text-[20px] font-[600] text-[#fda829] mb-1">
           Quick Links
         </h2>
