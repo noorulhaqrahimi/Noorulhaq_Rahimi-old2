@@ -10,6 +10,7 @@ import ServicesCards from "./ServicesCards";
 import SkillCards from "./SkillCards";
 import SkillCardSM from "./SkillCardSM";
 import WhatssapContact from "./whatssapContact";
+import ServiceCardLG from "./ServiceCardLG";
 
 
 const Home = ()=> {
@@ -24,6 +25,7 @@ const Home = ()=> {
         <SkillCardSM />
         <InfoDev/>
         <ServicesCards />
+        <ServiceCardLG />
         <WhatssapContact />
         <BtnSV />
         <Footer />

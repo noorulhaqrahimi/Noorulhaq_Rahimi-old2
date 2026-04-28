@@ -17,11 +17,18 @@ const item = {
 const SkillCardSM = () => {
   return (
     <>
-      <div className="mt-[80px] hidden sm:mr-6 sm:ml-6 sm:flex sm:justify-center sm:items-center sm:flex-col">
-        <h2 className="text-[clamp(12px,6vw,35px)] md:text-4xl font-semibold mb-7 text-center">
+      <motion.div className="mt-[80px] hidden  sm:mr-6 sm:ml-6 sm:flex sm:justify-center sm:items-center sm:flex-col"
+      variants={Container}
+      initial= "hidden"
+      whileInView= "show"
+      >
+        <motion.h2 variants={item} className="text-[clamp(12px,6vw,35px)] lg:mb-9 md:text-4xl font-semibold mb-7 text-center"
+        >
           Languages and Tools
-        </h2>
-        {/* 1 */}
+        </motion.h2>
+        <motion.div
+        variants={item}>
+            {/* 1 */}
         <div className="sm:flex sm:mr-6 sm:ml-6 sm:gap-6 mb-5">
           {/* copy 1 */}
           <div
@@ -50,7 +57,7 @@ const SkillCardSM = () => {
          sm:w-[clamp(130px,27vw,300px)]"
           >
             <img src="/logos/js.svg" className="w-[60px]" alt="javascript" />
-            <p>HTML5</p>
+            <p>JavaScript</p>
           </div>
         </div>
 
@@ -197,11 +204,9 @@ const SkillCardSM = () => {
             <p>Git</p>
           </div>
         </div>
-
-
-
+        </motion.div>
         {/* end */}
-      </div>
+      </motion.div>
     </>
   );
 };

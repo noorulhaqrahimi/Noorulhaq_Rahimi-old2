@@ -3,17 +3,17 @@ import { motion } from "framer-motion";
 const ServicesCards = function () {
   return (
     <>
-    <div className="flex mx-1 sm:mr-6 sm:ml-6 justify-center items-center flex-col">
+    <div className="flex mx-1 lg:hidden sm:mr-6 lg:flex-row lg:gap-3 lg:justify-center  sm:ml-6 justify-center items-center flex-col">
 
        {/* 1 Card Copy */}
       <motion.div
-        className="w-[clamp(320px,93vw,620px)] mb-7 sm:w-[clamp(400px,92vw,800px)]"
+        className="w-[clamp(320px,93vw,620px)] lg:w-[400px] mb-7 sm:w-[clamp(400px,92vw,800px)]"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.9 }}
         viewport={{ once: true }}
       >
-        <div className="w-full rounded-[9px] overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.08)] bg-white">
+        <div className="w-full lg:w-[360px] rounded-[9px] overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.08)] bg-white">
           {/* قسمت بالا */}
           <div className="w-full h-[120px] bg-[#fbd9bd]" />
 
@@ -32,7 +32,7 @@ const ServicesCards = function () {
             <motion.button
               className="mt-[12px] w-full h-[44px] bg-[#fda829] 
            hover:bg-[#fda829] text-white text-[14px] 
-            font-medium rounded-[9px] transition"
+            font-medium rounded-[9px] transition "
               whileTap={{ scale: 0.8 }}
             >
               Get Started
@@ -43,13 +43,13 @@ const ServicesCards = function () {
 
       {/* 2 Card Copy */}
       <motion.div
-        className="w-[clamp(320px,93vw,620px)] mb-7 sm:w-[clamp(400px,92vw,800px)]"
+        className="w-[clamp(320px,93vw,620px)] lg:w-[360px] mb-7 sm:w-[clamp(400px,92vw,800px)]"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.9 }}
         viewport={{ once: true }}
       >
-        <div className="w-full sm:w-[clamp(400px,92vw,800px)] rounded-[9px] overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.08)] bg-white">
+        <div className="w-full lg:w-[400px] sm:w-[clamp(400px,92vw,800px)] rounded-[9px] overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.08)] bg-white">
           {/* قسمت بالا */}
           <div className="w-full h-[120px] bg-[#fbd9bd]" />
 
@@ -80,13 +80,13 @@ const ServicesCards = function () {
 
       {/* 3 Card copy */}
       <motion.div
-        className="w-[clamp(320px,93vw,620px)] mb-7 sm:w-[clamp(400px,92vw,800px)]"
+        className="w-[clamp(320px,93vw,620px)] lg:w-[360px] mb-7 sm:w-[clamp(400px,92vw,800px)]"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.9 }}
         viewport={{ once: true }}
       >
-        <div className="w-f rounded-[9px] overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.08)] bg-white">
+        <div className="w-full rounded-[9px] overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.08)] bg-white">
           {/* قسمت بالا */}
           <div className="w-full h-[120px] bg-[#fbd9bd]" />
 
@@ -117,13 +117,13 @@ const ServicesCards = function () {
 
       {/* 4 Card copy */}
        <motion.div
-        className="w-[clamp(320px,93vw,620px)] mb-7 sm:w-[clamp(400px,92vw,800px)]"
+        className="w-[clamp(320px,93vw,620px)] lg:w-[360px] mb-7 sm:w-[clamp(400px,92vw,800px)]"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.9 }}
         viewport={{ once: true }}
       >
-        <div className="w-f rounded-[9px] overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.08)] bg-white">
+        <div className="w-full rounded-[9px] overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.08)] bg-white">
           {/* قسمت بالا */}
           <div className="w-full h-[120px] bg-[#fbd9bd]" />
 

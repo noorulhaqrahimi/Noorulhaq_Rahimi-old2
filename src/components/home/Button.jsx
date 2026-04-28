@@ -6,13 +6,13 @@ const MotionLink = motion(Link);
 const Button = function () {
   return (
     <>
-      <div className="flex justify-center mt-2 gap-4 mb-7 sm:ml-6 sm:mr-6 mr-3 ml-3">
+      <div className="flex justify-center mt-2 gap-4 mb-7 sm:ml-6 sm:mr-6 mr-3 ml-3 lg:justify-start lg:ml-20">
         {/* Btn 1 */}
         <MotionLink
           to="/portfolio"
           className="border-[#fda829] justify-center text-[#fda829] text-[clamp(14px,3vw,25px)] 
-       border-[1px] w-[48%] flex justify-self-center items-center sm:w-[200px] sm:text-[16px]
-       px-8 rounded-full py-3 font-semibold"
+       border-[1px] w-[48%] flex justify-self-center items-center sm:w-[clamp(200px,20vw,500px] sm:text-[16px]
+       px-8 rounded-full py-3 font-semibold lg:text-[14px] lg:w-[160px]"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9 }}
@@ -26,8 +26,8 @@ const Button = function () {
         <MotionLink
           to="/services"
           className=" w-[48%] hidden shadow-md items-center text-[clamp(14px,3vw,25px)]
-          justify-center justify-self-center bg-[#fda829] py-3 px-8 sm:w-[200px] sm:text-[18px] sm:block sm:text-center
-          rounded-full  text-white font-semibold"
+          justify-center justify-self-center bg-[#fda829] py-3 px-8 sm:w-[clamp(200px,20vw,500px] sm:text-[18px] sm:block sm:text-center
+          rounded-full  text-white font-semibold lg:text-[14px] lg:w-[160px]"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.5 }}
@@ -41,8 +41,8 @@ const Button = function () {
         <MotionLink
           to="/contact"
           className=" w-[48%] shadow-md items-center text-[clamp(14px,3vw,25px)]
-          justify-center flex justify-self-center bg-[#fda829] py-3 px-8 sm:w-[200px] sm:text-[18px]
-          rounded-full  text-white font-semibold"
+          justify-center flex justify-self-center bg-[#fda829] py-3 px-8 sm:w-[clamp(200px,20vw,500px] sm:text-[18px]
+          rounded-full  text-white font-semibold lg:text-[14px] lg:w-[160px]"
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, delay: 0.9 }}

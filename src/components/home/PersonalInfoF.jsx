@@ -28,10 +28,10 @@ const PersonalInfoF = function () {
       whileInView= "show"
       viewport={{once: true}}
       >
-        <motion.h2 className="text-[30px] font-semibold mb-2"
+        <motion.h2 className="text-[30px] lg:text-[50px] font-semibold mb-2"
         variants={item}
         >Noorulhaq Rahimi</motion.h2>
-        <motion.p className="text-justify font-semibold text-[16px]"
+        <motion.p className="text-justify font-semibold text-[16px] lg:text-[24px]"
         variants={item}
         >
           I'm Noorulhaq Rahimi and I'm Web Application Developer in Kabul,

@@ -38,14 +38,15 @@ const Home1 = () => {
 
   return (
     <div className="flex flex-col sm:mt-28 items-center mt-[90px] lg:mt-[110px]">
-      <h1 className="text-[clamp(18px,4vw,35px)] mb-1 font-semibold">
-        Website Developer in Afghanistan
+      <h1 className="text-[clamp(18px,4vw,35px)] mb-1 font-semibold lg:relative lg:left-[-450px] lg:text-[34px]
+      lg:font-semibold lg:text-center">
+        Website Developer in <br className="hidden lg:block" />Afghanistan
       </h1>
 
       <p
         className="
         text-orange-500 text-[clamp(18px,4vw,25px)] mt-[clamp(15px,4vw,35px)] font-semibold
-        transform transition-all duration-500
+        transform transition-all duration-500 lg:relative lg:left-[-450px] lg:text-[23px]
         translate-y-0 opacity-100
       "
         key={index}
@@ -53,11 +54,13 @@ const Home1 = () => {
         {displayText}
         <span className="animate-pulse ">|</span>
       </p>
-      <div className="text-[clamp(10px,3vw,18px)] mt-7 bg-[#FAF6F5] py-[2px] text-orange-500 px-2 rounded-full border-[1px]">
+      <div className="text-[clamp(10px,3vw,18px)] mt-7 bg-[#FAF6F5] py-[2px] text-orange-500 px-2 
+      rounded-full border-[1px] lg:relative lg:left-[-450px] lg:text-[16px] lg:mt-9">
         Website Developer For Afghan Businesses | Web Developer Kabul
       </div>
       <div className="mt-1">
-        <p className="text-justify p-6 text-[clamp(18px,4vw,25px)]">
+        <p className="text-justify p-6 text-[clamp(18px,4vw,25px)] lg:max-w-[550px] lg:text-[20px]
+        lg:relative lg:left-[-450px]">
           I'm a professional website designer in Afghanistan and web developer
           based in Kabul, with one years of experience creating websites and
           web applications for Afghan businesses worldwide. I offer website

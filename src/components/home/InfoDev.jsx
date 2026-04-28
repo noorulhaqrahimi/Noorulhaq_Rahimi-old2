@@ -14,7 +14,8 @@ const InfoDev = () => {
         <h2 className="text-[clamp(27px,5vw,40px)] font-[600] flex justify-center text-center mx-2 mb-2 items-center">
           Website Developer for Afghan Businesses | Web Developer Kabul
         </h2>
-        <p className="flex justify-center text-[clamp(16px,5vw,25px)] items-center text-center">
+        <p className="flex justify-center text-[clamp(16px,5vw,25px)] items-center text-center
+        lg:max-w-[800px]">
           As a professional website designer in Afghanistan and web developer
           Afghanistan, I provide complete web solutions for Afghan businesses in
           Kabul and across Afghanistan. Web Development, Logo Design, Social
