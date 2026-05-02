@@ -7,7 +7,7 @@ const ServicesCards = function () {
 
        {/* 1 Card Copy */}
       <motion.div
-        className="w-[clamp(320px,93vw,620px)] lg:w-[400px] mb-7 sm:w-[clamp(400px,92vw,800px)]"
+        className="w-[clamp(320px,93vw,620px)] lg:w-[360px] mb-7 sm:w-[clamp(400px,92vw,800px)]"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.9 }}
@@ -49,7 +49,7 @@ const ServicesCards = function () {
         transition={{ duration: 0.9 }}
         viewport={{ once: true }}
       >
-        <div className="w-full lg:w-[400px] sm:w-[clamp(400px,92vw,800px)] rounded-[9px] overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.08)] bg-white">
+        <div className="w-full lg:w-[360px] sm:w-[clamp(400px,92vw,800px)] rounded-[9px] overflow-hidden shadow-[0_4px_12px_rgba(0,0,0,0.08)] bg-white">
           {/* قسمت بالا */}
           <div className="w-full h-[120px] bg-[#fbd9bd]" />
 

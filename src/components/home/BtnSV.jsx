@@ -10,12 +10,12 @@ const BtnSV = ()=> {
         whileInView={{opacity: 1, y: 0}}
         transition={{duration: 0.9}}
         viewport={{once: true}}
-        whileHover={{scale: 1.1}}
+        whileHover={{scale: 0.9}}
         >
          <Link
               to="/services"
               className="border-[#fda829] justify-center text-[#fda829] text-[clamp(14px,3vw,25px)] 
-       border-[2px] w-[50%] flex justify-self-center items-center lg:w-[300px] lg:mt-[60px]
+       border-[2px] w-[50%] flex justify-self-center items-center lg:text-[20px] lg:w-[250px] lg:mt-[60px]
        px-8 rounded-full py-3 font-semibold"
             >
               View All Services

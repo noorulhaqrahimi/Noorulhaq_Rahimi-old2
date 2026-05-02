@@ -9,7 +9,7 @@ const FullFLG = () => {
     {/* Quick Links */}
       <div className="mr-6 ml-6 mt-9 flex flex-col gap-2">
         <h2 className="text-[20px] font-[600] text-[#fda829] mb-1 lg:text-[30px]">
-          Quick
+          Quick Links
         </h2>
         <Link className="font-semibold text-[17px] lg:text-[20px] lg:mt-2" to="/">
           Home
@@ -38,7 +38,7 @@ const FullFLG = () => {
       {/* products */}
         <div className="mr-6 ml-6 mt-9 flex flex-col gap-2 lg:text-[30px]">
 
-            <h2 className="text-[20px] font-[600] text-[#fda829] mb-1">My Prouducts</h2>
+            <h2 className="text-[20px] font-[600] lg:text-[30px] text-[#fda829] mb-1">My Prouducts</h2>
 
             <a href="#" className="font-semibold text-[17px]  lg:text-[20px] lg:mt-2">Nawisa</a>
             <a href="#" className="font-semibold text-[17px]  lg:text-[20px] lg:mt-2">Calculator</a>
@@ -51,7 +51,7 @@ const FullFLG = () => {
 
         {/* contact */}
          <div className="mr-6 ml-6 mt-9 flex flex-col gap-2 lg:text-[30px]">
-        <h2 className="text-[20px] font-[600] text-[#fda829] mb-1">Contact</h2>
+        <h2 className="text-[20px] font-[600] text-[#fda829] lg:text-[30px] mb-1">Contact</h2>
         <p className="font-semibold text-[17px]  lg:text-[20px] lg:mt-2">noorulhaqrahimi11@gmail.com</p>
         <p className="font-semibold text-[17px]  lg:text-[20px] lg:mt-2">+93 748 906 077</p>
         <p className="font-semibold text-[17px]  lg:text-[20px] lg:mt-2">Kabul, Afghanistan</p>

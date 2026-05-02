@@ -7,9 +7,9 @@ const EndF = () => {
         </div>
 
         <div className="flex justify-center mt-5 gap-5 mb-5">
-        <p>Terms of Service</p>
+        <p className="cursor-pointer">Terms of Service</p>
         <p>|</p>
-        <p>privacy Policy</p>
+        <p className="cursor-pointer">privacy Policy</p>
         </div>
         </>
     )
