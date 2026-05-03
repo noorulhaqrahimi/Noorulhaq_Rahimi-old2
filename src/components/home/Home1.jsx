@@ -38,7 +38,7 @@ const Home1 = () => {
 
   return (
     <div className="flex flex-col sm:mt-28 items-center mt-[90px] lg:mt-[110px]">
-      <h1 className="text-[clamp(18px,4vw,35px)] mb-1 font-semibold lg:relative lg:left-[-450px] lg:text-[34px]
+      <h1 className="text-[clamp(18px,4vw,35px)] font-semibold lg:relative lg:left-[-450px] lg:text-[28px]
       lg:font-semibold lg:text-center">
         Website Developer in <br className="hidden lg:block" />Afghanistan
       </h1>

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function ImageSlider() {
   return (
-    <div className=" m-7 mt-[35px] lg:w-[650px] lg:absolute lg:bottom-[1px]
+    <div className=" m-7 mt-[35px] lg:w-[620px] lg:absolute lg:bottom-[1px]
     lg:left-[750px] flex justify-self-center items-center overflow-hidden
     rounded-xl shadow-md">
       <img
