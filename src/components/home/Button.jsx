@@ -6,7 +6,7 @@ const MotionLink = motion(Link);
 const Button = function () {
   return (
     <>
-      <div className="flex justify-center mt-2 gap-4 mb-7 sm:ml-6 sm:mr-6 mr-3 ml-3 lg:justify-start lg:ml-20">
+      <div className="flex justify-center mt-2 gap-4 mb-7 sm:ml-6 sm:mr-6 mr-3 ml-3 lg:justify-start lg:ml-14">
         {/* Btn 1 */}
         <MotionLink
           to="/portfolio"

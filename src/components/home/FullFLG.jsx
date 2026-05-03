@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 const FullFLG = () => {
   return (
     <>
-    <div className="lg:flex lg:gap-[400px] lg:justify-center hidden">
+    <div className="lg:flex lg:gap-[300px] lg:justify-center hidden">
 
 
     {/* Quick Links */}
       <div className="mr-6 ml-6 mt-9 flex flex-col gap-2">
-        <h2 className="text-[20px] font-[600] text-[#fda829] mb-1 lg:text-[30px]">
+        <h2 className="text-[20px] lg:flex font-[600] text-[#fda829] mb-1 lg:text-[30px]">
           Quick Links
         </h2>
         <Link className="font-semibold text-[17px] lg:text-[20px] lg:mt-2" to="/">
