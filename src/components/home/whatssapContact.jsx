@@ -11,11 +11,11 @@ const WhatssapContact = () => {
       className="fixed bottom-8 right-8 rounded-full shadow-xl"
       
       animate={{
-        scale: [1, 1.5, 1],   // 👈 بزرگ و کوچک
+        scale: [1, 1.5, 1],  
       }}
       transition={{
-        duration: 1.5,        // سرعت
-        repeat: Infinity,     // تکرار بی‌نهایت
+        duration: 1.5,     
+        repeat: Infinity,     
         ease: "easeInOut",
       }}
     >
