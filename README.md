@@ -2,7 +2,7 @@
 
 A modern, clean, and responsive portflio website built with **HTML** and **Tailwind CSS**.
 
-![Project Preview](./preview.png)
+![Project Preview](./nr.png)
 
 ## ✨ Features
 
