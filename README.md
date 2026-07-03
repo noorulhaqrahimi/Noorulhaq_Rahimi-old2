@@ -1,6 +1,6 @@
 # portfolio Website
 
-A modern, clean, and responsive Login Page built with **HTML** and **Tailwind CSS**.
+A modern, clean, and responsive portflio website built with **HTML** and **Tailwind CSS**.
 
 ![Project Preview](./preview.png)
 
@@ -8,14 +8,14 @@ A modern, clean, and responsive Login Page built with **HTML** and **Tailwind CS
 
 - 🎨 Clean and modern UI
 - 📱 Fully Responsive Design
-- ⚡ Built with HTML & Tailwind CSS
-- 🔒 Simple Login Form
+- ⚡ Built with React & Tailwind CSS
+- 🔒 profissional portfolio website
 - 💻 Easy to customize
 - 🚀 Lightweight and fast
 
 ## 🛠️ Technologies Used
 
-- HTML5
+- React
 - Tailwind CSS
 
 ## 📂 Installation
@@ -23,7 +23,7 @@ A modern, clean, and responsive Login Page built with **HTML** and **Tailwind CS
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
+https://github.com/noorulhaqrahimi/Noorulhaq_Rahimi-old2.git
 ```
 
 2. Open the project folder.
